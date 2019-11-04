@@ -1,7 +1,7 @@
 language: python
 rvm:
-	- "3.5"		#our prefered version of python 
+  - "3.5"		#our prefered version of python 
 
 script:
-	- test_rpn.py
+  - test_rpn.py
 
