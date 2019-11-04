@@ -1,8 +1,7 @@
 language: python
-python:
-	- "3.5"		#our prefered version of python 
-install:
-	- pip install -r requirements.txt
+rvm:
+	- 3.5		#our prefered version of python 
 
 script:
-	- pytest
+	- test_rpn.py
+
